@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sabedoria das multidões - Testes</title>
+    <link rel="icon" href="img/Logo Juh's Tech branca.png" type="image/x-icon">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/testes.css">
+</head>
+
+<body>
+    <header>
+        <div class="cabecalho">
+            <h1 class="titulo">Sabedoria das multidões</h1>
+        </div>
+
+        <div class="cabecalho">
+            <nav>
+                <ul>
+                    <li> <a href="index.html">O que é</a></li>
+                    <li> <a href="testes.html">Testes</a></li>
+                    <li> <a href="resultados.html">Resultados</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    
+    <main>
+        <form id="info-form">
+            <div class="form">
+                <label for="nome">Nome: </label>
+                <input type="text" required name="nome" id="nome">
+                
+            </div>
+
+            <div class="form"> 
+                <label for="aposta">Aposta: </label>
+                <input type="number" required name="aposta" name="aposta" id="aposta">
+            </div>
+
+            <div>
+                <button id="botao-adicionar">Adicionar</button>
+            </div>
+        </form>
+    </main>
+
+    <div class="tabelas">
+        <table id="tabela-apostas">
+            <h3 class="titulo-tabela">Apostas</h3>
+            <thead>
+                <tr>
+                    <th>Nome</th>
+                    <th>Aposta</th>
+                </tr>
+            </thead>
+            <tbody id="info-tabela">
+            </tbody>
+        </table>
+
+        <table id="tabela-vencedores">
+            <h3 class="titulo-tabela">Vencedor(es)</h3>
+            <thead>
+                <tr>
+                    <th>Nome</th>
+                    <th>Aposta</th>
+                </tr>
+            </thead>
+            <tbody id="info-tabela">
+            </tbody>
+        </table>
+
+        <table id="tabela-dados">
+            <h3 class="titulo-tabela">Dados</h3>
+            <thead>
+                <tr>
+                    <th>Quantidade de apostas</th>
+                    <th>Média</th>
+                    <th>Mediana</th>
+                    <th>Moda</th>
+                </tr>
+            </thead>
+            <tbody id="info-tabela">
+            </tbody>
+        </table>
+    </div>
+
+    <div class="botao">
+        <button id="botao-finalizar">Finalizar</button>
+    </div>
+
+    <script src="js/script.js" defer> </script>
+    <script src="js/form_apostas.js"> </script>
+    <script src="js/finalizar.js"> </script>
+
+    <footer>
+        <!-- <p>Feito por: Júlia Ribeiro</p> -->
+    </footer>
+</body>
+</html>

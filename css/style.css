@@ -1,0 +1,79 @@
+/* Cabeçalho geral */
+header {
+    background: #000000;
+    
+}
+
+.cabecalho {
+	display: inline-block;
+	padding: 50px;
+}
+
+.titulo {
+	color: #ffffff;
+	font-size: 60px;
+	margin: 0 170px 0 80px;
+}
+
+nav li {
+	display: inline;
+	margin: 0 0 0 30px;
+	font-size: 20px;
+}
+nav a {
+	color: #ffffff;
+	text-transform: uppercase;
+	text-decoration: none;
+}
+nav a:hover {
+	text-decoration: underline;
+	color: aqua;
+}
+
+/*Index.html*/
+
+/*Index.html*/
+
+/*Tabelas*/
+form {
+	text-align: end;
+    padding: 180px 650px 250px 0;
+    font-size: 25px;
+}
+.form {
+	margin: 20px 0 0 0;
+}
+.form input {
+	padding: 4px 4px 4px 4px;
+}
+button {
+	margin: 10px 0 0 0;
+}
+
+.titulo-tabela {
+	font-size: 20px;
+	text-align: center;
+	padding-top: 25px;
+}
+table{
+	width: 90%;
+	margin-bottom : .5em;
+	margin-left: 80px;
+	table-layout: fixed;
+}
+th, td {
+	padding: .7em;
+	margin: 0;
+	border: 1px solid #ccc;
+	text-align: center;
+}
+th{
+	font-size: 18px;
+	background-color: gray;
+}
+/*Tabelas*/
+
+.botao{
+	text-align: end;
+	margin: 0 75px 50px 0;
+}
